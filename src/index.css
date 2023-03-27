@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (max-width: 1920px){
+    .respond-small {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .respond-small {
+        margin-top: 70px;
+        margin-bottom: 83px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .small-card {
+        max-width: 160px;
+        max-height: 240px;
+        padding: 10px 15px;
+    }
+    .small-img {
+        max-width: 70px;
+    }
+    .small-height {
+        height: 100%;
+    }
+    .small-btn {
+        font-size: 12px;
+        line-height: 15px;
+        width: 300px;
+        padding: 5px 4px;
+    }
+    .small-head{
+        font-size: 15px;
+    }
+    .small-btngroup {
+        margin: 10px 0 5px 0;
+        padding: 0px 4px 0px 12px;
+    }
+    .sm-input {
+        display: none;
+    }
+    .sm-btn {
+        border-radius: 100%;
+        border: none;
+    }
+    .sm-btn:hover {
+        --tw-border-opacity: 0;
+        --tw-bg-opacity: 0.2;
+        background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    }
+    .nav-head {
+        margin: 0;
+    }
+    .sm-bar {
+        margin-right: 20px;
+    }
+    detail-img {
+        max-width: 100px;
+    }
+}
+
+.nav-head {
+    cursor: pointer;
+}
+
+.nav-head:hover {
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.sm-btn:hover {
+    background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    --tw-border-opacity: 0;
+    --tw-bg-opacity: 0.2;
+    color: #fff;
+    transition: all 0.5s;
+}
